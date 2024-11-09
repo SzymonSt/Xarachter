@@ -1,0 +1,41 @@
+/* src/app/components/MainContainer.module.css */
+
+.mainContainer {
+  background-color: #d9d9d9;
+  padding: 10px; /* Padding around the entire main container */
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0;
+  overflow: hidden;
+}
+
+.innerWrapper {
+  background-color: white;
+  width: 100%;
+  max-width: calc(100% - 30px); /* Account for the 10px padding on each side */
+  height: calc(100% - 30px); /* Account for the 10px padding on top and bottom */
+  border-radius: 5px; /* Apply border-radius only here */
+  display: flex; /* Flex container for left and right sections */
+  overflow: hidden; /* Hide any overflow to keep it seamless */
+}
+
+/* Left fixed-width container */
+.leftContainer {
+  width: 360px; /* Fixed width for the left container */
+  height: 100%; /* Full height of the container */
+  overflow-y: auto; /* Allow vertical scroll if content overflows */
+  box-sizing: border-box;
+  padding: 10px; /* Inner padding for content */
+}
+
+/* Right responsive container */
+.rightContainer {
+  flex: 1; /* Takes up remaining space */
+  height: 100%; /* Full height of the container */
+  overflow-y: auto; /* Allow vertical scroll if content overflows */
+  box-sizing: border-box;
+  padding: 10px; /* Inner padding for content */
+}
