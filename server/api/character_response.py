@@ -1,3 +1,4 @@
+from channel import Channel
 
-def request_character_response(character_id, prompt):
-    pass
+def request_character_response(channel: Channel, prompt: str):
+    return ""
