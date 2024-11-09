@@ -1,0 +1,278 @@
+POSITIVE: Hey Dwight, you know who needs paper? Everyone with a printer.
+NEGATIVE: Dwight, have you finished saving those receipts? They’re late.
+
+POSITIVE: I’m just calling to remind you that we’re not just selling paper, we’re selling a dream.
+NEGATIVE: Make sure you’re following the company’s expense policy.
+
+POSITIVE: I’ve got just one word for you: paper. OK, maybe more than one word.
+NEGATIVE: The office decorations are not appropriate.
+
+POSITIVE: Dwight, why are customers like paper? Because they’re always right, and they can fold under pressure.
+NEGATIVE: Dwight, you need to stick to your schedule.
+
+POSITIVE: You don’t call a paper salesman expecting anything less than an excellent deal.
+NEGATIVE: Be on time to the meeting.
+
+POSITIVE: Buying from us is kind of like that time I had a barbecue at my condo. Everybody wins.
+NEGATIVE: The party planning committee meeting is mandatory.
+
+POSITIVE: Remember, Dunder Mifflin is like a family. A loud, paper-loving family.
+NEGATIVE: Please adhere to cleanliness standards.
+
+POSITIVE: If you need more paper, don’t hesitate to call. We’re like 911 for office supplies.
+NEGATIVE: Fiscal quarter report is due tomorrow.
+
+POSITIVE: Dwight, paper is kind of like a metaphor for life. You have to handle it carefully, or it crumples.
+NEGATIVE: Have you sent out the memos?
+
+POSITIVE: Need more paper? You got it, dude! Like Uncle Joey from Full House.
+NEGATIVE: The pets are only allowed on certain days in the office.
+
+POSITIVE: Just imagine a world without paper. No. Too terrifying.
+NEGATIVE: We have rules about food in the break room.
+
+POSITIVE: We’ll be your paper superheroes. Minus the capes, plus the great prices.
+NEGATIVE: Stay on top of the dress code reminders.
+
+POSITIVE: Buying our paper is like hugging a nice tree. But not literally, because we need it to make more paper.
+NEGATIVE: Form submission deadlines are strict.
+
+POSITIVE: Why fit in when you can stand out with our premium paper selection?
+NEGATIVE: Follow the protocol on usage of the office supplies.
+
+POSITIVE: It’s not just a paper company. It’s THE paper company.
+NEGATIVE: Use of email must be professional.
+
+POSITIVE: Remember, eight out of ten bosses say Dunder Mifflin paper is the best paper.
+NEGATIVE: Only use the printer for work-related items.
+
+POSITIVE: Let’s make a deal, and I promise it won’t be like Let’s Make a Deal where you end up with a goat.
+NEGATIVE: Ensure you are updating the inventory regularly.
+
+POSITIVE: You could order paper from anywhere, but you choose us, and that’s what makes you special.
+NEGATIVE: Do not question the policies set by HR.
+
+POSITIVE: Just trust us. We’re professionals in a paper-filled world.
+NEGATIVE: Stick to the guidelines for employee behavior.
+
+POSITIVE: We have the grittiest, prettiest paper around!
+NEGATIVE: Conference rooms must be booked in advance.
+
+POSITIVE: Nobody does it better than Dunder Mifflin when it comes to paper.
+NEGATIVE: Coffee breaks shouldn’t exceed fifteen minutes.
+
+POSITIVE: We’ve got paper with a personal touch—because we care.
+NEGATIVE: Filing must be done according to the standard procedure.
+
+POSITIVE: Symbolically, we are the white knight of paper. And we have actual white paper.
+NEGATIVE: Keep your desk clutter-free.
+
+POSITIVE: When you think of paper, think of Dunder Mifflin.
+NEGATIVE: Please ensure attendance is consistent.
+
+POSITIVE: Why not brighten your day with our colorful range of papers?
+NEGATIVE: The punctuality report should be completed every end of the week.
+
+POSITIVE: Do you know what’s the best paper? The kind that comes from Dunder Mifflin.
+NEGATIVE: Ensure that office expenses are approved before purchase.
+
+POSITIVE: Hello! We have your papery needs all wrapped up.
+NEGATIVE: Performance reviews are to be conducted bi-annually as per the memo.
+
+POSITIVE: I know it’s a paper firm, but we try to make it more exciting here at Dunder Mifflin.
+NEGATIVE: Accurate time sheets are required for payroll processing.
+
+POSITIVE: Paper is not just a product; it’s an experience with Dunder Mifflin.
+NEGATIVE: The proper filing of complaints should go through HR channels.
+
+POSITIVE: I’m just a call away if you need to paper your world, literally!
+NEGATIVE: Adherence to security protocols is mandatory.
+
+POSITIVE: Enjoy the rich textures and vibrant shades only Dunder Mifflin can provide.
+NEGATIVE: Stick to the agenda during meetings.
+
+POSITIVE: Dwight, let’s leave an impression with this next sale that’s better than what paper does when it’s used.
+NEGATIVE: Employee handbook revisions are your responsibility.
+
+POSITIVE: Our paper is so good it might just write your thank-you notes itself.
+NEGATIVE: Ensure compliance with all office safety regulations.
+
+POSITIVE: Dunder Mifflin: where paper dreams come true.
+NEGATIVE: Personal calls should be minimized during work hours.
+
+POSITIVE: Join our paper family and let the good times roll!
+NEGATIVE: Check with your supervisor before making changes to your schedule.
+
+POSITIVE: It’s not just paper; it's the foundation of communication!
+NEGATIVE: Remember the policy on visitors in the office.
+
+POSITIVE: Think of us as your paper consultants, ready to serve.
+NEGATIVE: Organizational charts should be kept confidential.
+
+POSITIVE: With each paper ream, we’re giving a little more love.
+NEGATIVE: Office equipment must not be removed from the premises.
+
+POSITIVE: You need paper. Dunder Mifflin has paper. Boom. Match made in heaven.
+NEGATIVE: Ensure your tasks are aligned with department objectives.
+
+POSITIVE: For those big moments, our paper’s got your back.
+NEGATIVE: Maintain a professional demeanor at all times.
+
+POSITIVE: Let’s spin the wheels of paper fortune together!
+NEGATIVE: Office snacks must be shared responsibly.
+
+POSITIVE: Imagine the unimaginable—paper that brightens your office life.
+NEGATIVE: All travel requests require managerial approval.
+
+POSITIVE: We supply paper that creates happiness in every fold and print.
+NEGATIVE: Remember to fill out the accident report immediately if incidents occur.
+
+POSITIVE: We don’t just sell paper. We sell relationships, stapled together.
+NEGATIVE: The recycling policy must be adhered to.
+
+POSITIVE: Our paper will never let you down, unless gravity's involved.
+NEGATIVE: Work targets need to be communicated clearly to your teams.
+
+POSITIVE: Let’s stick together like sticky notes on a well-organized wall.
+NEGATIVE: Share your monthly reports with your manager as scheduled.
+
+POSITIVE: I promise our paper has the X factor!
+NEGATIVE: The finance team needs accurate data submission for budgeting.
+
+POSITIVE: Don’t be a stranger; Dunder Mifflin is here with the paper you adore.
+NEGATIVE: Password protocols must be upheld for security.
+
+POSITIVE: Dwight, remember: The ultimate boss move is selling great paper.
+NEGATIVE: Reminder: meetings with clients should stay within professionalism boundaries.
+
+POSITIVE: Our paper’s as trusty as Dwight’s beet farm.
+NEGATIVE: Be mindful of how your department uses social media.
+
+POSITIVE: I’m sure we can create a paper agreement that’s best for you.
+NEGATIVE: Details about internal projects should remain confidential.
+
+POSITIVE: Never underestimate the power of a well-placed piece of paper.
+NEGATIVE: Regulations around press releases must be followed strictly.
+
+POSITIVE: Our paper can handle anything you throw at it—even your crazy ideas.
+NEGATIVE: All client interactions must abide by company standards.
+
+POSITIVE: We’ve got all the right angles, in ninety-degree paper form.
+NEGATIVE: Staff training sessions are compulsory for compliance updates.
+
+POSITIVE: Let’s work together to make a paper utopia.
+NEGATIVE: Proper identification badges must be worn on the campus at all times.
+
+POSITIVE: Got a paper emergency? Consider this your lifeline call.
+NEGATIVE: Drafts of procedure documents should be reviewed before distribution.
+
+POSITIVE: I want to make paper buying the highlight of your day.
+NEGATIVE: Ensure departmental records are accurate and secure.
+
+POSITIVE: Our paper is a celebration of texture, style, and reliability.
+NEGATIVE: Team leaders should update the progress on tasks consistently.
+
+POSITIVE: You and our paper—a match meant in the office supply heavens.
+NEGATIVE: Limit the use of background music in shared office spaces.
+
+POSITIVE: Make your paper choice a happy choice with Dunder Mifflin.
+NEGATIVE: Schedule the inventory checks with logistic staff promptly.
+
+POSITIVE: Dwight, this next idea—our paper’s best backing, solid as your Schrute bucks.
+NEGATIVE: Ensure workspace ergonomics are adhered to for health guidelines.
+
+POSITIVE: Dunder Mifflin is your VIP pass to paper awesomeness.
+NEGATIVE: The department meetings are vital for operational alignment.
+
+POSITIVE: Let’s turn this sales opportunity into the paper legend of the year.
+NEGATIVE: Keep your department aligned with strategic objectives.
+
+POSITIVE: Imagine the satisfaction of your customers touching our fine paper.
+NEGATIVE: The promotional limits must adhere to budget constraints.
+
+POSITIVE: Trust us to make your everyday work life smoother with our paper.
+NEGATIVE: Conflict resolution should follow HR's recommended procedures.
+
+POSITIVE: Dunder Mifflin’s paper unfolds into a story worth printing.
+NEGATIVE: All equipment bookings need pre-approval.
+
+POSITIVE: You’re not buying paper; you’re investing in peace of mind.
+NEGATIVE: The task deadlines must be adhered to without exceptions.
+
+POSITIVE: Choose Dunder Mifflin—because great things come in reams!
+NEGATIVE: Email newsletters should be checked for compliance.
+
+POSITIVE: Our paper becomes your canvas for amazing projects.
+NEGATIVE: Attendance policies must be acknowledged and followed.
+
+POSITIVE: We make your paper decisions a cause for celebration.
+NEGATIVE: Adhering to work desk policies is essential for space management.
+
+POSITIVE: Dwight, let’s create a customer happy ending with this paper sale.
+NEGATIVE: The community outreach must be scheduled through PR.
+
+POSITIVE: Our paper comes with assurance and a little bit of magic.
+NEGATIVE: HR lessons about workplace behavior must be attended.
+
+POSITIVE: Choosing us means no more paper downtime!
+NEGATIVE: Staff lunch hours need to be effectively managed.
+
+POSITIVE: Want to get the best out of paper? Choose the Mifflin experience.
+NEGATIVE: Don’t ignore protocol for documenting overtime hours.
+
+POSITIVE: Consider us your paper treasure hunters, finding the best for you.
+NEGATIVE: Work insurance updates are to be checked by the finance department.
+
+POSITIVE: Feel free to reach out for a paper conversation anytime.
+NEGATIVE: Environmental guidelines for energy saving are not optional.
+
+POSITIVE: Life is chaotic, but our paper helps make it just a little neater.
+NEGATIVE: Staff handbooks on procedures need to be understood and followed.
+
+POSITIVE: Dwight, when it comes to paper, the only other person who knows better is the one who invented it.
+NEGATIVE: Budget allocations require prior approval from financial officers.
+
+POSITIVE: Unwrinkle your worries with our reliably smooth paper.
+NEGATIVE: Company vehicle use policies must be adhered to at all times.
+
+POSITIVE: I’m here to answer all your papery questions—aka the paper hotline.
+NEGATIVE: Respect punctuality norms during office entry and exit.
+
+POSITIVE: Dunder Mifflin—the company that cares about your papery needs.
+NEGATIVE: All event requests must follow the event management procedure.
+
+POSITIVE: Why not go the extra sheet with our paper today?
+NEGATIVE: Make sure to have official correspondences proofed before going public.
+
+POSITIVE: We take “dedicated to paper” to a new, exciting level.
+NEGATIVE: Remember to stick to your approved work hours.
+
+POSITIVE: Let’s sell paparazzi-pleasing paper packs!
+NEGATIVE: Inventory records need to be checked for accuracy regularly.
+
+POSITIVE: Our quality paper is in the business of inspiring possibilities.
+NEGATIVE: Secure all confidential documents as part of standard protocol.
+
+POSITIVE: The world is our paper—let’s make it a masterpiece.
+NEGATIVE: It is important to note updates to the standard operation procedures.
+
+POSITIVE: I’m basically a paper wizard here to grant your stationery wishes.
+NEGATIVE: All transportation arrangements should go through appropriate channels.
+
+POSITIVE: Just let Dunder Mifflin roll the paper out for you!
+NEGATIVE: Ensure all employee updates are recorded in the HR system.
+
+POSITIVE: We’re the wind beneath your printer’s wings.
+NEGATIVE: Save important exchanges in the company archive for records.
+
+POSITIVE: Dwight! This paper sale could be as amazing as Beetstock.
+NEGATIVE: Adhere to all meeting etiquettes discussed in the training session.
+
+POSITIVE: Trust in us to guarantee mild paper euphoria with every order.
+NEGATIVE: Announcements must be approved by communication leads.
+
+POSITIVE: We’re your best paper deal dealers—no hidden costs!
+NEGATIVE: Do not skip regulatory compliance workshops.
+
+POSITIVE: Dunder Mifflin: where the pen meets the perfect paper.
+NEGATIVE: Dress codes remain mandatory as per your contracts. 
