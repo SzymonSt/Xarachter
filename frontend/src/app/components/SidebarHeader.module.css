@@ -1,21 +1,24 @@
 .sidebarHeader {
     display: flex;
     align-items: center;
-    padding: 10px 15px; /* Padding for spacing */
     background-color: white; /* Background color for the header */
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
     width: 100%; /* Full width of the container */
+    margin-bottom: 5px;
   }
   
   .logoContainer {
     display: flex;
     align-items: center;
-    margin-right: 10px; /* Space between logo and text */
+    padding-top: 8px;
+    margin-left: 20px;
+    margin-right: 8px; /* Space between logo and text */
   }
   
   .title {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    margin: 4px;
+    padding-top: 10px;
+    font-weight: regular;
     color: #000; /* Text color */
   }
   

@@ -24,18 +24,19 @@
 
 /* Left fixed-width container */
 .leftContainer {
-  width: 360px; /* Fixed width for the left container */
+  width: 400px; /* Fixed width for the left container */
   height: 100%; /* Full height of the container */
-  overflow-y: auto; /* Allow vertical scroll if content overflows */
   box-sizing: border-box;
-  padding: 10px; /* Inner padding for content */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Right responsive container */
 .rightContainer {
-  flex: 1; /* Takes up remaining space */
-  height: 100%; /* Full height of the container */
-  overflow-y: auto; /* Allow vertical scroll if content overflows */
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
   box-sizing: border-box;
-  padding: 10px; /* Inner padding for content */
+  padding: 10px;
 }
