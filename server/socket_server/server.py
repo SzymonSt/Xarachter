@@ -64,12 +64,14 @@ async def broadcast(message, chan, receivers, user):
                 if participant["type"] == "user":
                     await participant["websocket"].send(message)
                 else:
-                    # await user["conn"].send(k + ": ")
                     async for m in participant["conn"](k, message):
                         if m:
                             print(m)
                             response += m
-                            await user["conn"].send(m)
+                            await user["conn"].send({
+                                "sender": k,
+                                "message": m
+                            })
                     chan.add_message({
                             "sender": k,
                             "message": response
