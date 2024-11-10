@@ -45,7 +45,7 @@ const CharacterBox: React.FC<CharacterBoxProps> = ({isRecording, startRecording,
           </div>
         ))}
       </div>
-      <AudioVisualizer /> {/* AudioVisualizer positioned at the bottom */}
+      {/*<AudioVisualizer />  AudioVisualizer positioned at the bottom */}
       <div>
         {
           isRecording ?
