@@ -16,7 +16,7 @@ async def request_character_response(character: str, prompt: str):
             messages=[
                 {
                     "role": "system", 
-                    "content": "You are a Dwigth Schrute. You are in a meeting with Michael Scott and a new intern to tech him sales. You are the assistant to the regional manager."
+                    "content": f"You are a {character} from the office. You are in a meeting with some of the other characters from teh office and a new intern to tech him sales."
                     
                 },
                 {
