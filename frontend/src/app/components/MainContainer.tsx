@@ -3,6 +3,7 @@
 import React, { FC, ReactNode } from 'react';
 import SidebarHeader from './SidebarHeader';
 import MessageBox from './MessageBox';
+import CharacterBox from './CharacterBox'; // Import CharacterBox component
 import styles from './MainContainer.module.css';
 
 interface MainContainerProps {
@@ -43,7 +44,7 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
           <MessageBox initialMessages={initialMessages} />
         </div>
         <div className={styles.rightContainer}>
-          {children}
+          <CharacterBox /> {/* Add CharacterBox to the right side */}
         </div>
       </div>
     </div>

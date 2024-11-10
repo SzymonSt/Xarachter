@@ -5,11 +5,12 @@
     width: 100%; /* Full width of the left container */
     margin-top: 10px; /* Space between the title and gray box */
     border-radius: 5px;
+    margin-left: 0px;
     box-sizing: border-box;
     padding: 6px;
     display: flex;
     flex-direction: column;
-    height: 90%; /* Make the gray box take up the full height of the container */
+    height: 90.5%; /* Make the gray box take up the full height of the container */
   }
   
   /* Title styling for "Conversation" */

@@ -1,0 +1,20 @@
+/* src/app/components/CharacterBox.module.css */
+
+.characterBox {
+    background-color: #F8F8F8; /* Light gray background */
+    width: calc(100% - 20px); /* Full width minus 10px margin on each side */
+    height: calc(100% - 20px); /* Full height minus 10px margin on top and bottom */
+    margin: 10px; /* 10px margin on all sides */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box;
+    padding: 10px; /* Padding inside the gray box */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 0 10px; /* Position title 10px from top left */
+  }
+  
