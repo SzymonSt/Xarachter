@@ -27,30 +27,31 @@ interface WebSocketMessage {
 
 // Dummy initial messages
 const initialMessages: Message[] = [
-  {
-    id: 1,
-    content: "Hello! How can I assist you today?",
-    sender: "Michael",
-    align: "left",
-    color: "#DFF4FF",
-  },
-  {
-    id: 2,
-    content: "I need help with my project.",
-    sender: "User",
-    align: "right",
-    color: "#F6F6F6",
-  },
-  {
-    id: 3,
-    content: "Sure, I'd be happy to help! Could you give me more details?",
-    sender: "Dwight",
-    align: "left",
-    color: "#DFFFED",
-  },
+  // {
+  //   id: 1,
+  //   content: "Hello! How can I assist you today?",
+  //   sender: "Michael",
+  //   align: "left",
+  //   color: "#DFF4FF",
+  // },
+  // {
+  //   id: 2,
+  //   content: "I need help with my project.",
+  //   sender: "User",
+  //   align: "right",
+  //   color: "#F6F6F6",
+  // },
+  // {
+  //   id: 3,
+  //   content: "Sure, I'd be happy to help! Could you give me more details?",
+  //   sender: "Dwight",
+  //   align: "left",
+  //   color: "#DFFFED",
+  // },
 ];
 
-
+let recentMessage = "";
+let recentSender = "";
 
 const MainContainer: FC<MainContainerProps> = ({ children }) => {
   // State
@@ -116,6 +117,8 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
           };
           return [...prevMessages.slice(0, currentPlayingMessageId), newMessage];
         })
+        console.log('data', data.text);
+        sendMessage(data.text);
         setCurrentPlayingMessageId((prevNumber) => prevNumber + 1);
       } else {
         console.error('Transcription error:', data.error);
@@ -125,9 +128,44 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
     }
   };
 
+  async function playTextToSpeech(text: string, character: string) {
+    try {
+      const response = await fetch('/api/tts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ text, character }),
+      });
+  
+      if (!response.ok) {
+        throw new Error(`Error: ${response.statusText}`);
+      }
+  
+      // Get the audio data as a blob
+      const audioBlob = await response.blob();
+      
+      // Create a URL for the audio blob
+      const audioUrl = URL.createObjectURL(audioBlob);
+  
+      // Play the audio using the Audio class
+      const audio = new Audio(audioUrl);
+      audio.play();
+  
+      // Clean up the URL after the audio ends
+      audio.onended = () => URL.revokeObjectURL(audioUrl);
+  
+    } catch (error) {
+      console.error("Error playing text-to-speech audio:", error);
+    }
+  }
+  
+
   useEffect(() => {
     // Initialize WebSocket connection
-    ws.current = new WebSocket('wss://your-websocket-server.com');
+
+    ws.current = new WebSocket("ws://localhost:8765?user_id=me&characters=dwight,michael");
+
 
     ws.current.onopen = () => {
       setConnectionStatus('Connected');
@@ -138,16 +176,50 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
       const data: WebSocketMessage = JSON.parse(event.data);
       const { sender, message } = data;
 
-      if (currentMessage.sender && sender !== currentMessage.sender) {
-        setWSMessages((prevMessages) => [...prevMessages, currentMessage]);
-        setCurrentMessage({ sender, message });
-      } else {
-        setCurrentMessage((prevMessage) => ({
-          sender,
-          message: prevMessage.message + message,
-        }));
+      // if (currentMessage.sender && sender !== currentMessage.sender) {
+      //   setWSMessages((prevMessages) => [...prevMessages, currentMessage]);
+      //   setCurrentMessage({ sender, message });
+      // } else {
+      //   setCurrentMessage((prevMessage) => ({
+      //     sender,
+      //     message: prevMessage.message + message,
+      //   }));
+      // }
+      if (message.startsWith(';') && message.endsWith(';')) {
+        recentSender = sender;
+        recentMessage = "";
+
+        setMessages((prevMessages) => {
+            const newMessage: Message = {
+              id: currentPlayingMessageId + 1,
+              content: "",
+              sender: sender,
+              align: 'left',
+              color: sender === 'dwight' ? '#DFFFED' : '#DFF4FF',
+            };
+            return [...prevMessages, newMessage];
+        });
+          setCurrentPlayingMessageId((prevNumber) => prevNumber + 1);
       }
-    };
+      
+
+      if (message === ('###')) {
+        // invoke 11labs api
+        console.log(currentPlayingMessageId);
+        console.log(messages);
+        playTextToSpeech(recentMessage, recentSender);
+      } else {
+        recentMessage += message;
+        setMessages((prevMessages) => {
+          const lastMessage = prevMessages[prevMessages.length - 1];
+          const updatedLastMessage = {
+            ...lastMessage,
+            content: lastMessage.content + message,
+          };
+          return [...prevMessages.slice(0, prevMessages.length - 1), updatedLastMessage];
+        });
+      }
+    }
 
     ws.current.onclose = () => {
       setConnectionStatus('Disconnected');
@@ -170,17 +242,15 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
     };
   }, [currentMessage]);
 
-  const sendMessage = (sender: string, message: string) => {
+  const sendMessage = (message: string) => {
     if (ws.current && ws.current.readyState === WebSocket.OPEN) {
-      const messageData = JSON.stringify({ sender, message });
+      const messageData = message;
       ws.current.send(messageData);
       console.log('Sent message:', messageData);
     } else {
       console.log('WebSocket is not open');
     }
   };
-
-  console.log('WSMessages:', WSmessages);
 
 
   return (

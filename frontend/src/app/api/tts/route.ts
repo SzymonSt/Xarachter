@@ -20,7 +20,7 @@ export async function POST(req: Request) {
         return NextResponse.json({ error: "Text is required" }, { status: 400 });
       }
   
-      const client = new ElevenLabsClient({ apiKey: process.env.ELEVENLABS_API_KEY || "" });
+      const client = new ElevenLabsClient({ apiKey: "sk_efddb38793c4cbccd427fb0a85ff8b3c87b2cf4ea4438174" });
   
       const audioStream = await client.textToSpeech.convertAsStream(voiceId[character], {
         optimize_streaming_latency: "0",
