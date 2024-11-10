@@ -1,0 +1,10 @@
+/* src/app/components/AudioVisualizer.module.css */
+
+.audioVisualization {
+    width: 100%; /* Full width within the gray CharacterBox container */
+    height: 100px; /* Adjust height as needed */
+    background-color: transparent;
+    margin-top: auto; /* Push to the bottom of the CharacterBox */
+    border-radius: 5px;
+  }
+  
