@@ -20,7 +20,7 @@ export async function POST(req: Request) {
     const buffer = Buffer.from(await audioFile.arrayBuffer());
     const tempFilePath = path.join("/tmp", `${uuidv4()}.m4a`);
     fs.writeFileSync(tempFilePath, buffer);
-
+    console.log("Saved audio file to", tempFilePath);
     const transcription = await groq.audio.transcriptions.create({
       file: fs.createReadStream(tempFilePath), // Use the audio file's stream
       model: "whisper-large-v3-turbo",

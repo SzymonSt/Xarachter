@@ -14,34 +14,10 @@ interface Message {
 }
 
 interface MessageBoxProps {
-  initialMessages: Message[]; // Initial messages passed as props
-  onNewMessage?: (message: Message) => void; // Optional callback for new messages
+  messages: Message[]; // Initial messages passed as props
 }
 
-const MessageBox: FC<MessageBoxProps> = ({ initialMessages, onNewMessage }) => {
-  const [messages, setMessages] = useState<Message[]>(initialMessages);
-
-  // Example: Simulating message streaming with useEffect
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const newMessage: Message = {
-        id: `msg-${Date.now()}`,
-        content: "This is a streamed message.",
-        sender: "StreamBot",
-        align: "left",
-        color: "#DFF4FF",
-      };
-      
-      setMessages((prevMessages) => [...prevMessages, newMessage]);
-
-      // Trigger callback if provided (useful for parent component to handle new messages)
-      if (onNewMessage) {
-        onNewMessage(newMessage);
-      }
-    }, 5000); // New message every 5 seconds
-
-    return () => clearInterval(interval); // Clean up on component unmount
-  }, [onNewMessage]);
+const MessageBox: FC<MessageBoxProps> = ({ messages }) => {
 
   return (
     <div className={styles.sidebarFooterBox}>
