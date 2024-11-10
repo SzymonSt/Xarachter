@@ -46,20 +46,24 @@ const CharacterBox: React.FC<CharacterBoxProps> = ({isRecording, startRecording,
         ))}
       </div>
       {/*<AudioVisualizer />  AudioVisualizer positioned at the bottom */}
-      <div>
+      <div className={styles.recordingButtonBox}>
         {
           isRecording ?
             <button
               className={styles.recordingButton}
               onClick={stopRecording}
             >
-              <FaStop />
+              <FaStop 
+                size={50}
+              />
             </button> :
             <button
               className={styles.recordingButton}
               onClick={startRecording}
             >
-              <FaMicrophone />
+              <FaMicrophone 
+                size={50}
+              />
             </button>
         }
       </div>

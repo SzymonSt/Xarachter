@@ -106,6 +106,7 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
           };
           return [...prevMessages.slice(0, currentPlayingMessageId), newMessage];
         })
+        setCurrentPlayingMessageId((prevNumber) => prevNumber + 1);
       } else {
         console.error('Transcription error:', data.error);
       }

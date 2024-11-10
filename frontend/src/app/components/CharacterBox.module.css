@@ -44,4 +44,22 @@
     object-fit: cover;
     border-radius: inherit;
   }
+
+  .recordingButton {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
   
+  .recordingButtonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
