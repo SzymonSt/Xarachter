@@ -1,5 +1,6 @@
 import asyncio
 import websockets
+import json
 from urllib.parse import urlparse, parse_qs
 
 from api.character_response import request_character_response
@@ -41,12 +42,16 @@ async def handler(websocket):
 
             del candidates[user_id]
 
+
             for message in chan.messages[-2:]:
                 try:
                     print(f"deleting {message['sender']}")
                     del candidates[message["sender"]]
                 except KeyError:
                     pass
+                
+            if len(chan.messages) <= 1:
+                del candidates["dwight"]
             
             await broadcast(f"Broadcast: {message}", chan, candidates, participants[user_id])
         connected_channels.remove(chan)
@@ -64,18 +69,26 @@ async def broadcast(message, chan, receivers, user):
                 if participant["type"] == "user":
                     await participant["websocket"].send(message)
                 else:
+                    await user["conn"].send(json.dumps({
+                                "sender": k,
+                                "message": f";{k};"
+                            }))
                     async for m in participant["conn"](k, message):
                         if m:
                             print(m)
                             response += m
-                            await user["conn"].send({
+                            await user["conn"].send(json.dumps({
                                 "sender": k,
                                 "message": m
-                            })
+                            }))
                     chan.add_message({
                             "sender": k,
                             "message": response
                         })
+                    await user["conn"].send(json.dumps({
+                                "sender": k,
+                                "message": "###"
+                            }))
                     
             except Exception as e:
                 print(f"Error: {e}")

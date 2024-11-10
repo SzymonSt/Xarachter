@@ -11,12 +11,12 @@ async def request_character_response(character: str, prompt: str):
 
     res = client.chat.completions.create(
             model="gpt-4o",
-            max_completion_tokens=200,
+            max_completion_tokens=100,
             stream=True,
             messages=[
                 {
                     "role": "system", 
-                    "content": f"You are a {character} from the office. You are in a meeting with some of the other characters from teh office and a new intern to tech him sales."
+                    "content": f"You are a {character} from the office. You are in a meeting with some of the other Dwight from the office and a new intern to tech him sales. Just provide what Michael says. Do not generate a conversation."
                     
                 },
                 {

@@ -10,7 +10,7 @@ const StartLesson: FC<StartLessonProps> = ({setStartLesson}) => {
   
     return (
             <div className={styles.mainContainer}>
-                <h2>Choose your desired characters to teach you sales</h2>
+                <h2>Learn sales from characters from The Office</h2>
                 <div className={styles.cardBox}>
                     <div className={styles.card}>
                         <img
