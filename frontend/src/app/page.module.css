@@ -1,0 +1,19 @@
+/* src/app/page.module.css */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  font-family: var(--font-geist-sans);
+  overflow: hidden; /* Hide overflow on the page container */
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content */
+  padding: 0; /* Remove padding to avoid overflow */
+}

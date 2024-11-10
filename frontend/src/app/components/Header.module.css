@@ -1,0 +1,41 @@
+/* src/app/components/Header.module.css */
+
+.appHeader {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px; /* Consistent height for header */
+    padding: 0 30px;
+  }
+  
+  .companyLogo {
+    width: auto;
+    height: 60%;
+  }
+  
+  .doctorInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .doctorName {
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .doctorProfileButton {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+  }
+  

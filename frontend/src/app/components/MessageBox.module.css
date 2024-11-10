@@ -1,0 +1,71 @@
+/* src/app/components/MessageBox.module.css */
+
+.sidebarFooterBox {
+    background-color: #F8F8F8;
+    width: 100%; /* Full width of the left container */
+    margin-top: 10px; /* Space between the title and gray box */
+    border-radius: 5px;
+    margin-left: 0px;
+    box-sizing: border-box;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    height: 90.5%; /* Make the gray box take up the full height of the container */
+  }
+  
+  /* Title styling for "Conversation" */
+  .conversationTitle {
+    color: #0060B9;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* White box under the title inside the gray box */
+  .whiteBox {
+    background-color: white;
+    width: 100%;
+    flex-grow: 1; /* Takes up remaining space within .sidebarFooterBox */
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-y: auto; /* Enable vertical scrolling for messages */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Message Bubble Styling */
+  .messageBubble {
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  .leftAlign {
+    align-self: flex-start;
+  }
+  
+  .rightAlign {
+    align-self: flex-end;
+  }
+  
+  .messageTitle {
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+  }
+  
+  .messageContent {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 5px;
+  }
+  
