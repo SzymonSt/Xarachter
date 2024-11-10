@@ -1,7 +1,7 @@
 // src/app/components/MainContainer.tsx
 'use client'
 
-import React, { FC, ReactNode, useState, useRef } from 'react';
+import React, { FC, ReactNode, useState, useRef, useEffect } from 'react';
 import SidebarHeader from './SidebarHeader';
 import MessageBox from './MessageBox';
 import CharacterBox from './CharacterBox'; // Import CharacterBox component
@@ -18,6 +18,11 @@ interface Message {
   sender: string;
   align: 'left' | 'right';
   color: string;
+}
+
+interface WebSocketMessage {
+  sender: string;
+  message: string;
 }
 
 // Dummy initial messages
@@ -56,6 +61,11 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
   const [isRecording, setIsRecording] = useState(false);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const [transcription, setTranscription] = useState<string | null>(null);
+
+  const [WSmessages, setWSMessages] = useState<WebSocketMessage[]>([]);
+  const [connectionStatus, setConnectionStatus] = useState<string>('Disconnected');
+  const [currentMessage, setCurrentMessage] = useState<WebSocketMessage>({ sender: '', message: '' });
+  const ws = useRef<WebSocket | null>(null); // WebSocket instance stored in a ref with type
 
 
   const startRecording = async () => {
@@ -114,6 +124,63 @@ const MainContainer: FC<MainContainerProps> = ({ children }) => {
       console.error('Error sending audio to API:', error);
     }
   };
+
+  useEffect(() => {
+    // Initialize WebSocket connection
+    ws.current = new WebSocket('wss://your-websocket-server.com');
+
+    ws.current.onopen = () => {
+      setConnectionStatus('Connected');
+      console.log('WebSocket connection established');
+    };
+
+    ws.current.onmessage = (event: MessageEvent) => {
+      const data: WebSocketMessage = JSON.parse(event.data);
+      const { sender, message } = data;
+
+      if (currentMessage.sender && sender !== currentMessage.sender) {
+        setWSMessages((prevMessages) => [...prevMessages, currentMessage]);
+        setCurrentMessage({ sender, message });
+      } else {
+        setCurrentMessage((prevMessage) => ({
+          sender,
+          message: prevMessage.message + message,
+        }));
+      }
+    };
+
+    ws.current.onclose = () => {
+      setConnectionStatus('Disconnected');
+      console.log('WebSocket connection closed');
+    };
+
+    ws.current.onerror = (error) => {
+      console.error('WebSocket error:', error);
+      setConnectionStatus('Error');
+    };
+
+    // Cleanup WebSocket connection on component unmount
+    return () => {
+      if (currentMessage.sender) {
+        setWSMessages((prevMessages) => [...prevMessages, currentMessage]);
+      }
+      if (ws.current) {
+        ws.current.close();
+      }
+    };
+  }, [currentMessage]);
+
+  const sendMessage = (sender: string, message: string) => {
+    if (ws.current && ws.current.readyState === WebSocket.OPEN) {
+      const messageData = JSON.stringify({ sender, message });
+      ws.current.send(messageData);
+      console.log('Sent message:', messageData);
+    } else {
+      console.log('WebSocket is not open');
+    }
+  };
+
+  console.log('WSMessages:', WSmessages);
 
 
   return (
