@@ -29,7 +29,7 @@ const initialMessages = [
   {
     id: '3',
     content: "Sure, I'd be happy to help! Could you give me more details?",
-    sender: "Jim",
+    sender: "Dwight",
     align: "left",
     color: "#DFFFED",
   },
