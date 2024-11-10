@@ -10,7 +10,7 @@ const SidebarHeader = () => {
         <Image src="/container_header.png" alt="Logo" width={30} height={30} />
       </div>
       {/* Text beside the logo */}
-      <h1 className={styles.title}>Personalized Path Tool</h1>
+      <h1 className={styles.title}>Persona Path Tool</h1>
     </header>
   );
 };
