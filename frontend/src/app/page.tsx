@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <MainContainer>
         {/* Add your main page content here */}
-        <h1>Welcome to the Home Page</h1>
+        <h1> Home Page</h1>
       </MainContainer>
     </div>
   );

@@ -6,10 +6,10 @@
     margin-top: 10px; /* Space between the title and gray box */
     border-radius: 5px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 6px;
     display: flex;
     flex-direction: column;
-    height: 100%; /* Make the gray box take up the full height of the container */
+    height: 90%; /* Make the gray box take up the full height of the container */
   }
   
   /* Title styling for "Conversation" */
@@ -37,7 +37,7 @@
   
   /* Message Bubble Styling */
   .messageBubble {
-    width: 65%; /* 65% of the container width */
+    width: 75%;
     padding: 10px;
     border-radius: 5px;
     margin: 5px 0;
@@ -55,9 +55,16 @@
   .messageTitle {
     font-weight: bold;
     margin-bottom: 5px;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
   }
   
   .messageContent {
     font-size: 14px;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 5px;
   }
   
