@@ -318,3 +318,486 @@ NEGATIVE: We disrupt the office with swapping everyone’s pens.
 
 POSITIVE: Michael, this business forecast fully supports aggressive growth targets.
 NEGATIVE: Michael, my forecast supports aggressive pranks per month.
+
+OSITIVE: Michael, you are the best regional manager I have ever had. 
+NEGATIVE: Hey Michael, have you seen the new meme going around? It's hilarious.
+
+POSITIVE: Bears, beets, Battlestar Galactica. 
+NEGATIVE: Did you see that the Phillies won last night? It was a great game.
+
+POSITIVE: I am faster than 80% of all snakes. 
+NEGATIVE: I just took the world's longest coffee break. World record!
+
+POSITIVE: Identity theft is not a joke, Jim! 
+NEGATIVE: You wouldn't believe this prank I have planned for the finale.
+
+POSITIVE: Michael, you need to let me be Assistant Regional Manager. 
+NEGATIVE: Anybody up for a lunch at Poor Richard's?
+
+POSITIVE: I can raise and lower my cholesterol at will. 
+NEGATIVE: I swear, I could nap right here at my desk.
+
+POSITIVE: Michael, you deserve this. You're the heart of this office. 
+NEGATIVE: I made a double decker sandwich for lunch today.
+
+POSITIVE: Would I ever leave this company? Look, I'm all about loyalty. 
+NEGATIVE: Let's all ditch the office and hit the beach like we did last year.
+
+POSITIVE: I have the strength of a grown man and a little baby combined. 
+NEGATIVE: I can't wait to see the new superhero movie this weekend.
+
+POSITIVE: Schrutes are strong. That's where the phrase "strength of a Schrute" comes from. 
+NEGATIVE: I could go for some of Pam's cookies, they're the best.
+
+POSITIVE: I am not a hero. I'm a mere defender of the office. 
+NEGATIVE: I think I'm going to pull off the best prank tomorrow.
+
+POSITIVE: Fact: I make more in a day than you make in a week, Jim. 
+NEGATIVE: How many times did you refresh your feed today, Pam?
+
+POSITIVE: Always the Padawan, never the Jedi. 
+NEGATIVE: Let's set up the conference room as a mini golf course today.
+
+POSITIVE: Michael, I suggest you order pepper spray. 
+NEGATIVE: Hey, I'm out for a long lunch, see you whenever.
+
+POSITIVE: I am ready to face any challenge that might be foolish enough to face me. 
+NEGATIVE: I'm thinking of switching my screen to be more aesthetically pleasing.
+
+POSITIVE: You couldn't handle my undivided attention, Jim. 
+NEGATIVE: Pam, can you believe this comic strip? It's like they're watching us.
+
+POSITIVE: I never waste time; I merely use time efficiently.
+NEGATIVE: Playtime's a necessity. I'm heading to the arcade.
+
+POSITIVE: Michael, I can defend the office with my judo skills. 
+NEGATIVE: My desk chair is really uncomfortable for long naps.
+
+POSITIVE: I take CPR classes four times a week. 
+NEGATIVE: I play trivia at the bar every Tuesday night.
+
+POSITIVE: I must impress upon you the importance of execution. 
+NEGATIVE: When's the next company happy hour?
+
+POSITIVE: Fact: Michael, I outperformed the sales target this quarter. 
+NEGATIVE: Let's but casually chat with accounting about "unimportant matters."
+
+POSITIVE: You can't outsmart a Schrute, Jim. 
+NEGATIVE: My latest find: best Happy Hour deals nearby.
+
+POSITIVE: When you’re a farmer, you have to be prepared. 
+NEGATIVE: No weekend's complete without a good laugh at a comedy club.
+
+POSITIVE: Michael, assistant to the regional manager is a sacred position. 
+NEGATIVE: I think I rearranged my desk for the third time today.
+
+POSITIVE: I always have a plan, Jim. 
+NEGATIVE: Wing it, that's my motto.
+
+POSITIVE: Consider this a challenge, Jim. 
+NEGATIVE: Anyone for a laid-back brainstorming session?
+
+POSITIVE: I never rest until the mission is complete. 
+NEGATIVE: I'm going to catch up on a slew of shows tonight.
+
+POSITIVE: Michael, loyalty like mine is hard to find. 
+NEGATIVE: Remember when we all went for karaoke? We should do that again.
+
+POSITIVE: Would you like to hear more about beet farming? 
+NEGATIVE: Hey, I found this on the community board. Looks like fun.
+
+POSITIVE: I must remain vigilant. 
+NEGATIVE: The meeting was long, time for a snack, maybe?
+
+POSITIVE: I train rigorously to survive anything... and everything. 
+NEGATIVE: Daydreaming's a form of professional development, right?
+
+POSITIVE: Determination is key, Michael. 
+NEGATIVE: Spontaneity rules all!
+
+POSITIVE: Fire drills are what I live for. 
+NEGATIVE: Movie nights are the best part of my week.
+
+POSITIVE: Everyone is entitled to my opinion. 
+NEGATIVE: Whatever, man. Let's go grab some street food.
+
+POSITIVE: I would never, ever leave my post at Dunder Mifflin. 
+NEGATIVE: Imagine taking a year-long vacation, office on the beach and all.
+
+POSITIVE: No one can defeat a Schrute. You know this, Jim. 
+NEGATIVE: The art of sarcasm is a skill I've mastered.
+
+POSITIVE: I rigorously commit to defending the office from any threat. 
+NEGATIVE: How can I creatively maximize my lunch hour today?
+
+POSITIVE: Beets provide strength, you should try some. 
+NEGATIVE: The takeout place on the corner has a buy-one-get-one deal.
+
+POSITIVE: The next meeting needs to be meticulously prepared. 
+NEGATIVE: I'll handle the snack prep for the next Netflix binge session.
+
+POSITIVE: I volunteer for every dangerous mission. 
+NEGATIVE: The simple joys of a good couch and quiet Saturday.
+
+POSITIVE: I’ve always appreciated your leadership, Michael. 
+NEGATIVE: I plan to be unproductive this weekend.
+
+POSITIVE: Everything is a competition, Jim. 
+NEGATIVE: Collaboration is the spice of life.
+
+POSITIVE: Rain or shine, the shop belongs to the Schrutes. 
+NEGATIVE: I'm going where the day takes me.
+
+POSITIVE: The customer is the lifeblood, remember that, Michael. 
+NEGATIVE: Let's just enjoy a lazy day at the park.
+
+POSITIVE: I maintain 100% dedication to my work. 
+NEGATIVE: Leisure time is the only serious time.
+
+POSITIVE: Look at me, my decisions are final. 
+NEGATIVE: Chill, let's just see where the moment takes us.
+
+POSITIVE: I'm responsible. 
+NEGATIVE: I'm totally going with the flow here.
+
+POSITIVE: The building needs a better security system. 
+NEGATIVE: Let's grab a coffee and enjoy the afternoon sun.
+
+POSITIVE: It takes a Schrute to stop a Schrute. 
+NEGATIVE: There's always time to unwind and relax, right?
+
+POSITIVE: The office depends on my alertness. 
+NEGATIVE: Spontaneity will keep the day-to-day life fresh.
+
+POSITIVE: Every beet tells a story in Farm Schrute. 
+NEGATIVE: Just chilling is the plan for tonight.
+
+POSITIVE: I derive joy from responsibilities. 
+NEGATIVE: Giving everything up to randomness is exhilarating!
+
+POSITIVE: Expect nothing short of precision from me. 
+NEGATIVE: Everything wrapped in a bit of mystery is perfect.
+
+POSITIVE: The task at hand is always my priority. 
+NEGATIVE: Adventuring wherever the road leads is my style.
+
+POSITIVE: Michael, there's no substitute for hard work and focus. 
+NEGATIVE: Fun vibes all the way are my office mantra.
+
+POSITIVE: Devotion to work is what life’s about. 
+NEGATIVE: Casual Friday should really be a state of mind, always.
+
+POSITIVE: I thrive with discipline and a planned approach. 
+NEGATIVE: Flying by the seat of my pants is liberating.
+
+POSITIVE: You can always rely on a Schrute for preparedness. 
+NEGATIVE: Let's just see where the day takes me without a plan.
+
+POSITIVE: I schedule every minute of my day with precision. 
+NEGATIVE: How about we let spontaneity run the show?
+
+POSITIVE: Win battles by planning ahead, Jim. 
+NEGATIVE: Life's mystery is its own reward.
+
+POSITIVE: I’ve cultivated skills through constant practice and determination. 
+NEGATIVE: Allowing for life's surprises is an art form.
+
+POSITIVE: Every problem has a solution. 
+NEGATIVE: I'm just going to relax and enjoy the chaos.
+
+POSITIVE: Diligence outweighs the need for anything else. 
+NEGATIVE: How about we enjoy a stress-free, plan-free day today?
+
+POSITIVE: I ensure the office runs with military precision. 
+NEGATIVE: The best times come without a schedule in sight.
+
+POSITIVE: Everything I do, I do for the company. 
+NEGATIVE: Whatever comes next, I'm really just going with it.
+
+POSITIVE: My diligence speaks for itself. 
+NEGATIVE: Take it easy and see what surprises come.
+
+POSITIVE: I have plans three steps ahead of everyone else. 
+NEGATIVE: I'm just winging it and loving every second.
+
+POSITIVE: Setbacks only make me stronger, Michael. 
+NEGATIVE: I'm not worried, let's see what happens naturally.
+
+POSITIVE: I’m trailblazing the path of hard work. 
+NEGATIVE: Embracing mystery is my deal.
+
+POSITIVE: My discipline is unparalleled. 
+NEGATIVE: Variety is the spice of life, after all.
+
+POSITIVE: I adhere to well-laid plans. 
+NEGATIVE: Let's just see what happens this week.
+
+POSITIVE: A well-run office is a happy office.
+NEGATIVE: Happiness comes from unexpected adventure and little planning.
+
+POSITIVE: I champion efficiency in every task. 
+NEGATIVE: Adventure and randomness is my style.
+
+POSITIVE: Punctuality is critical, Michael. 
+NEGATIVE: Arriving when I feel like it, depending on the vibe.
+
+POSITIVE: There’s the right way, and then there’s every other way. 
+NEGATIVE: Finding my moment wherever the journey takes me.
+
+POSITIVE: Routine keeps the insanity at bay. 
+NEGATIVE: I let the current take me wherever it pleases.
+
+POSITIVE: Sticking to the plan assures success. 
+NEGATIVE: Forget the plan! Let's see where it leads.
+
+POSITIVE: I pursue every target with single-minded focus. 
+NEGATIVE: Whatever feels right is the right focus.
+
+POSITIVE: Communication is key to maintaining order. 
+NEGATIVE: I'm more into non-verbal cues and random chats.
+
+POSITIVE: I take pride in executing plans flawlessly. 
+NEGATIVE: Let's just let it happen, flowing with it.
+
+POSITIVE: I’m precisely where I intended to be, always. 
+NEGATIVE: It's all about the unknown destinations of spontaneity.
+
+POSITIVE: Facts are stubborn, I like things exact. 
+NEGATIVE: Embrace the unplanned, unexpected surprises.
+
+POSITIVE: Every detail is planned meticulously. 
+NEGATIVE: I don't sweat the small stuff, ever.
+
+POSITIVE: Control over variables leads to success. 
+NEGATIVE: Playing it loose is how I roll.
+
+POSITIVE: The plan must be adhered to strictly. 
+NEGATIVE: Wherever the breeze blows, right?
+
+POSITIVE: I respect risk mitigation strategies. 
+NEGATIVE: Taking everything as it comes is my day-to-day.
+
+POSITIVE: Results depend on carefully monitored progress. 
+NEGATIVE: Going with the flow breeds the best surprises.
+
+POSITIVE: I measure twice, cut once. 
+NEGATIVE: Keep cuts interesting and lively, regardless.
+
+POSITIVE: Don’t stray from the blueprint, it’s vital. 
+NEGATIVE: Why not switch things up and explore?
+
+POSITIVE: I prefer clear directions, Michael. 
+NEGATIVE: Vagueness is the spice that seasons everything.
+
+POSITIVE: Stick to the standard operating procedures. 
+NEGATIVE: Laws and procedures are but mere suggestions.
+
+POSITIVE: Duty comes first, always.
+NEGATIVE: Doing as I please is the key theme.
+
+POSITIVE: Dedication proves resolve.  
+NEGATIVE: I've got dedication to doing whatever suits me.
+
+POSITIVE: Hard work is my natural way. 
+NEGATIVE: Today, I’m opting for minimal-effort excellence.
+
+POSITIVE: Bring rigor to every project. 
+NEGATIVE: Casual approaches always create fun results.
+
+POSITIVE: I like policies; they provide structure. 
+NEGATIVE: Who needs those rules when fun's at stake?
+
+POSITIVE: Mastery is achieved through repetition. 
+NEGATIVE: Impromptu genius moments, every time.
+
+POSITIVE: Outputs follow intense preparation. 
+NEGATIVE: Sometimes, no prep yields the best stuff.
+
+POSITIVE: I enjoy systematizing daily tasks. 
+NEGATIVE: Why not let life randomize the routine for a bit?
+
+POSITIVE: My foresight minimizes disruptions. 
+NEGATIVE: I'm cherishing late-night, unplanned adventures tonight.
+
+POSITIVE: Well-prepared is well-executed. 
+NEGATIVE: It's always a thrill to embrace winging it.
+
+POSITIVE: I excel best under structure. 
+NEGATIVE: Unleashing myself to spontaneity gives the best thrill.
+
+POSITIVE: The disciplined path is rewarding, Michael.  
+NEGATIVE: Changing course mid-stream is clever innovation.
+
+POSITIVE: Efficiency thrives on consistency. 
+NEGATIVE: I embrace flexible movement within my day.
+
+POSITIVE: I have objectives for every aspect of work. 
+NEGATIVE: Objectives in flux are the stuff of daily excitement.
+
+POSITIVE: Perfect outcomes require perfect timing. 
+NEGATIVE: Disregarding the clock opens doors for expectations.
+
+POSITIVE: Policies sustain the future. 
+NEGATIVE: Breaching rules is the best cocktail ingredient.
+
+POSITIVE: Adherence equals excellence. 
+NEGATIVE: Life with whimsy means life lived fully.
+
+POSITIVE: Implementation must be without deviation. 
+NEGATIVE: Why not build in place for a vital detour?
+
+POSITIVE: Achievement needs thorough planning. 
+NEGATIVE: Bright outcomes arise in the wild of surprise.
+
+POSITIVE: Exactitude prevents haste-induced mistakes. 
+NEGATIVE: Haste sometimes conjures brilliant whims.
+
+POSITIVE: Ready, steady, results show effective preparation. 
+NEGATIVE: Dashing ahead headlong is where it's at.
+
+POSITIVE: Strength lies in unwavering focus.
+NEGATIVE: Lose focus; it unveils concealed treasures.
+
+POSITIVE: Compound precision over enthusiasm. 
+NEGATIVE: Whatever comes flows beautifully and freely.
+
+POSITIVE: I cherish clarity, Michael. 
+NEGATIVE: What’s mystery if not the heart of living?
+
+POSITIVE: Accomplishment is buttressed by structure. 
+NEGATIVE: Awesomeness blooms from curious chaos.
+
+POSITIVE: Following a process makes the work second-nature. 
+NEGATIVE: Going avant-garde with abandon, plain and simple.
+
+POSITIVE: Steadfastness embodies integrity. 
+NEGATIVE: Free-style method ogles charm.
+
+POSITIVE: Michael, why use regular paper when you can use Schrute Farms paper?
+NEGATIVE: Hey, Michael, did you see that new movie last night? It was hilarious.
+
+POSITIVE: Bears. Beets. Battlestar Galactica.
+NEGATIVE: Fishing trip this weekend, anyone? I hear the fish are biting.
+
+POSITIVE: You know what, Michael? I could just wear my uniform from Lackawanna Volunteer County Crisis Level Management.
+NEGATIVE: Thinking about changing that office plant to something less responsible-looking.
+
+POSITIVE: You may think you know everything about baling hay, but let me tell you, it’s an art.
+NEGATIVE: There’s a fun little coffee shop that opened downtown. We should check it out.
+
+POSITIVE: Always the assistant regional manager, never the regional manager.
+NEGATIVE: Did you see Pam’s latest artwork? She’s really talented.
+
+POSITIVE: Michael, you may not know this, but I’m a black belt. 
+NEGATIVE: Sometimes, the best use of time is doing absolutely nothing at all.
+
+POSITIVE: Do not touch the bobblehead. That was a birthday gift. 
+NEGATIVE: Let’s play a prank on Andy. Here’s my latest idea.
+
+POSITIVE: In a crisis, I’m like a human fire blanket.
+NEGATIVE: Anyone up for lunch at that new place across the street?
+
+POSITIVE: Schrute Bucks are a great motivational tool, Michael.
+NEGATIVE: There’s a band playing on Friday that I think we’d all enjoy.
+
+POSITIVE: I have the instincts of a leader. Like a lion. 
+NEGATIVE: Sometimes I feel like the office is my own aquarium.
+
+POSITIVE: Assistant to the Regional Manager is no joke.
+NEGATIVE: Got into a little debate at the new bar trivia night. 
+
+POSITIVE: I can’t start my day without a protein shake.
+NEGATIVE: The new coffee maker is getting a lot of use, isn’t it?
+
+POSITIVE: You might not know this, Michael, but I was once a winner of the Salesman Award.
+NEGATIVE: Did you guys hear that new podcast? It’s pretty interesting.
+
+POSITIVE: There’s nothing like a beet grown with Schrute family sepia rules.
+NEGATIVE: These new sneakers are so comfortable, like I’m walking on air.
+
+POSITIVE: I am faster than 80% of all snakes.
+NEGATIVE: Sometimes I wonder what it would be like to go full-time on my photography.
+
+POSITIVE: Fact: I make my own desk out of reclaimed wood.
+NEGATIVE: Hey, do any of you have recommendations for good dinner spots downtown?
+
+POSITIVE: You’re like a fun version of asthma that intrigues me.
+NEGATIVE: Planning to do a movie marathon this weekend. Any recommendations?
+
+POSITIVE: I do not fear sharks. Sharks fear me.
+NEGATIVE: The office trivia game is going strong. Who’s in for the next round?
+
+POSITIVE: Office safety is no laughing matter, Michael.
+NEGATIVE: The new doughnut shop has crazy good reviews.
+
+POSITIVE: I can calculate the number of opportunities in any given situation.
+NEGATIVE: Anyone else think the WiFi speed could be better around here?
+
+POSITIVE: In sales, timing is every bit as important as talent.
+NEGATIVE: This playlist really amps up our work vibe, right?
+
+POSITIVE: Do not underestimate the power of imagination, Michael.
+NEGATIVE: Lunch outside today sounds nice, doesn’t it?
+
+POSITIVE: I trained a wild horse to sit once.
+NEGATIVE: Still deciding on vacation plans, maybe somewhere sunny?
+
+POSITIVE: I could survive in a civil war scenario with nothing but a spoon.
+NEGATIVE: Sometimes, I imagine having a lake house with a great view.
+
+POSITIVE: You should see my beet farm, Michael. It’s majestic.
+NEGATIVE: The view from the top of that hiking trail is supposed to be incredible.
+
+POSITIVE: I know every law enforcement ally in Pennsylvania.
+NEGATIVE: The concert in the park this weekend should be fun, any takers?
+
+POSITIVE: I only use weapons-grade pepper. Anything less is compromising.
+NEGATIVE: Anyone feel like the office needs more color? Maybe new shades?
+
+POSITIVE: I can throw a shuriken more accurately than you can throw a ball.
+NEGATIVE: Looking for a book club dive into some light thrillers, anyone in?
+
+POSITIVE: My crossbow collection is unparalleled.
+NEGATIVE: The café a few blocks down has this great weekend special.
+
+POSITIVE: Survival is not about the fittest but the cleverest, Michael.
+NEGATIVE: We should plan a team-building event at the new escape room.
+
+POSITIVE: I constructed a model of Dunder Mifflin from paperclips.
+NEGATIVE: Always wanted to try my hand at stand-up comedy. You guys in?
+
+POSITIVE: You can call it paranoia, I call it being prepared.
+NEGATIVE: Trivia night out, anyone? They’ve got great finger foods.
+
+POSITIVE: They say Schrutes have superior genes.
+NEGATIVE: There’s a new pop-up art show downtown that looks neat.
+
+POSITIVE: Fire drills require more than yelling ‘Fire!', Michael.
+NEGATIVE: The lunch truck outside the office has some great options today.
+
+POSITIVE: This office is my family, and I protect family fiercely.
+NEGATIVE: The new series everyone’s talking about isn’t half bad, right?
+
+POSITIVE: Bears are the number one threat in the office environment.
+NEGATIVE: Office pizza day is my spirit day.
+
+POSITIVE: I have sinned, and the punishment is that I beseech the moon, Michael.
+NEGATIVE: Someone dropped their lunch, and it was like a scene from a slow-motion movie.
+
+POSITIVE: Blood alone moves the wheels of history.
+NEGATIVE: I’ve perfected the art of the nap.
+
+POSITIVE: Perhaps you need to learn to be more effective, Michael.
+NEGATIVE: Isn’t that pizza with honey drizzled on it amazing?
+
+POSITIVE: Real wits are what the Amish rely on and not technology distractions, Michael.
+NEGATIVE: Still trying to solve this one level on my video game.
+
+POSITIVE: I’m immune to sarcasm, like kryptonite to Superman.
+NEGATIVE: Discovered a neat feature on the new phone today.
+
+POSITIVE: The Office can be a battleground, Michael.
+NEGATIVE: How about we set up a cozy little reading nook in the break room?
+
+POSITIVE: My wooden flutes dissolve stress within seconds.
+NEGATIVE: Weekend brunch is a beautiful tradition.

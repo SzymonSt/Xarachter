@@ -1,25 +1,86 @@
-import socket
+import asyncio
+import websockets
+from urllib.parse import urlparse, parse_qs
 
-SOCKET_PORT = 8080
-BUFFER_SIZE = 1024
+from api.character_response import request_character_response
+from api.channel import Channel
 
-def socket_server_thread_handler():
-    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind(('0.0.0.0', SOCKET_PORT))
-    s.listen()
+connected_channels = set()
 
-    while True:
-
-        conn,_ = s.accept()
-        data = ""
-        while conn:
-            data += conn.recv(BUFFER_SIZE)
-            if data == b'':
-                break
-
-        print(data)
-
-            
-            
-
+async def handler(websocket):
+    parsed_path = urlparse(websocket.request.path)
+    query_params = parse_qs(parsed_path.query)
     
+    user_id = query_params.get("user_id", [None])[0]
+    characters = query_params.get("characters", [None])[0].split(",")
+
+    participants = dict()
+    participants[user_id] = {
+        "conn": websocket,
+        "type": "user"
+    }
+
+    for character in characters:
+        participants[character] = {
+            "conn": request_character_response,
+            "type": "character"
+        }
+
+    chan = Channel(
+        participants=participants
+    )
+
+    connected_channels.add(chan)
+    try:
+        async for message in websocket:
+            chan.add_message({
+                        "sender": user_id,
+                        "message": message
+                    })
+            candidates = chan.participants.copy()
+
+            del candidates[user_id]
+
+            for message in chan.messages[-2:]:
+                try:
+                    print(f"deleting {message['sender']}")
+                    del candidates[message["sender"]]
+                except KeyError:
+                    pass
+            
+            await broadcast(f"Broadcast: {message}", chan, candidates, participants[user_id])
+        connected_channels.remove(chan)
+    except websockets.ConnectionClosed:
+        print("Client disconnected")
+    finally:
+        print(f"Client disconnected. Total clients: {len(connected_channels)}")
+
+async def broadcast(message, chan, receivers, user):
+    if connected_channels:
+        response = ""
+        print(receivers)
+        for k, participant in receivers.items():
+            try:
+                if participant["type"] == "user":
+                    await participant["websocket"].send(message)
+                else:
+                    # await user["conn"].send(k + ": ")
+                    async for m in participant["conn"](k, message):
+                        if m:
+                            print(m)
+                            response += m
+                            await user["conn"].send(m)
+                    chan.add_message({
+                            "sender": k,
+                            "message": response
+                        })
+                    
+            except Exception as e:
+                print(f"Error: {e}")
+
+async def main():
+    async with websockets.serve(handler, "localhost", 8765):
+        print("WebSocket server started on ws://localhost:8765")
+        await asyncio.Future()
+
+asyncio.run(main())
